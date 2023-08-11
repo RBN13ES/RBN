@@ -11,6 +11,21 @@
     a {
       color: white; /* Cambia el color del enlace para que sea visible en fondo negro */
     }
+    
+    @keyframes rainbow {
+      0% { color: red; }
+      14% { color: orange; }
+      28% { color: yellow; }
+      42% { color: green; }
+      57% { color: blue; }
+      71% { color: indigo; }
+      85% { color: violet; }
+      100% { color: red; }
+    }
+
+    pre {
+      animation: rainbow 8s infinite;
+    }
   </style>
 </head>
 <body>
@@ -29,3 +44,4 @@
   <p>13-05-2004</p>
 </body>
 </html>
+
